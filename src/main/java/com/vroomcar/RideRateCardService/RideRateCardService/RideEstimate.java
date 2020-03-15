@@ -2,7 +2,9 @@ package com.vroomcar.RideRateCardService.RideRateCardService;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
+/*
+ * this is ride estimate bean
+ */
 
 public class RideEstimate {
 
