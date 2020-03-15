@@ -21,7 +21,7 @@ public class RideRateController {
 	  private OfferCodeServiceProxy proxy;
 	
 	  /**
-	   * Method to find rate by source and destination : KANCHAN
+	   * Method to find rate by source and destination : KANCHAN on 15/03/2020
 	   * 
 	   * */
 	  
