@@ -20,6 +20,11 @@ public class RideRateController {
 	  @Autowired
 	  private OfferCodeServiceProxy proxy;
 	
+	  /**
+	   * Method to find rate by source and destination : KANCHAN
+	   * 
+	   * */
+	  
 	@GetMapping(value ="/Ratecard/src/{src}/dest/{dest}/offerCode/{offerCode}", produces= { MediaType.APPLICATION_JSON_VALUE })
 	public RideEstimate findRateBySourceDestAndOfferCode( @PathVariable("src") String src, @PathVariable("dest") String dest ,@PathVariable("offerCode") String offerCode) throws Exception{
 		
